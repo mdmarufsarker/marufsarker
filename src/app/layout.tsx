@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Head from "next/head";
 import Link from "next/link";
 
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Maruf Sarker",

@@ -65,8 +65,8 @@ const navLinks: DataTypes[] = [
   },
   {
     id: 5,
-    link: "#articles",
-    title: "Articles",
+    link: "#blogs",
+    title: "Blogs",
     initialY: -10,
     initialOpacity: 0,
     animateY: 0,

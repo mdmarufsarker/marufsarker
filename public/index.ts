@@ -27,6 +27,15 @@ import terminal from "./assets/images/tutorials/linux/1.webp";
 // error
 import error from "./assets/Four_O_Four.gif";
 
+// myself
+import maruf1 from "./assets/images/myself/marufsarker.png";
+import maruf2 from "./assets/images/myself/standard.png";
+import maruf3 from "./assets/images/myself/transparent.png";
+
+// others
+import code from "./assets/code.png";
+import typing from "./assets/typing.png";
+
 export {
   logo,
   c,
@@ -42,4 +51,9 @@ export {
   helloWorld,
   terminal,
   error,
+  code,
+  typing,
+  maruf1,
+  maruf2,
+  maruf3,
 };

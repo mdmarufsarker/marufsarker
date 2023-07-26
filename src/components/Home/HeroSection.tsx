@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-
 export default function Hero() {
   return (
     <section
@@ -17,7 +16,7 @@ export default function Hero() {
         Hi, I'm
       </motion.h3>
       <motion.h1
-        className="text-4xl lgl:text-6xl font-heading font-semibold flex flex-col"
+        className="text-4xl lgl:text-6xl font-stylish font-semibold flex flex-col"
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
@@ -44,6 +43,14 @@ export default function Hero() {
           </span>
         </Link>
       </motion.p>
+      <motion.button
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.9 }}
+        className="w-52 h-14 text-sm font-heading border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+      >
+        Check out my Projects!
+      </motion.button>
     </section>
   );
 }

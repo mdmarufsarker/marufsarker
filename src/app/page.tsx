@@ -1,7 +1,13 @@
 "use client";
 
 import HeroSection from "@/components/Home/HeroSection";
-import SocialMedia from "@/components/SocialMedia/SocialMedia";
+import AboutSection from "@/components/About/AboutSection";
+import SocialMedia from "@/components/SocialMedia";
+import ExperienceSection from "@/components/Experience/ExperienceSection";
+import ProjectsSection from "@/components/Projects/ProjectsSection";
+import TutorialsSection from "@/components/Tutorials/TutorialsSection";
+import BlogsSection from "@/components/Blogs/BlogsSection";
+import ContactSection from "@/components/Contact/ContactSection";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
@@ -20,6 +26,12 @@ export default function Home() {
           </motion.div>
           <div className="h-[88vh] w-full mx-auto p-4">
             <HeroSection />
+            <AboutSection />
+            <ExperienceSection />
+            <ProjectsSection />
+            <TutorialsSection />
+            <BlogsSection />
+            <ContactSection />
           </div>
         </div>
       </main>
