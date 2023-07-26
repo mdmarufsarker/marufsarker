@@ -8,6 +8,8 @@ import ProjectsSection from "@/components/Projects/ProjectsSection";
 import TutorialsSection from "@/components/Tutorials/TutorialsSection";
 import BlogsSection from "@/components/Blogs/BlogsSection";
 import ContactSection from "@/components/Contact/ContactSection";
+import Footer from "@/components/Footer";
+
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
@@ -32,6 +34,7 @@ export default function Home() {
             <TutorialsSection />
             <BlogsSection />
             <ContactSection />
+            <Footer />
           </div>
         </div>
       </main>
